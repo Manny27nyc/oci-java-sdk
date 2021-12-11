@@ -48,7 +48,7 @@
     <commons-lang3.version>3.8.1</commons-lang3.version>
     <commons-io.version>2.8.0</commons-io.version>
     <!-- Update resilience4jVersion and io.vavr.version together -->
-    <resilience4jVersion>1.2.0</resilience4jVersion>
+    <resilience4jVersion>1.7.1</resilience4jVersion>
     <io.vavr.version>0.10.2</io.vavr.version>
     <maven-shade-plugin.version>3.1.1</maven-shade-plugin.version>
     <bouncycastle.version>1.68</bouncycastle.version>
@@ -111,7 +111,7 @@
                 <phase>process-sources</phase>
                 <configuration>
                   <target>
-                    <replace dir="src/main/java" token="{{DOC_SERVER_URL}}" value="https://docs.cloud.oracle.com" />
+                    <replace dir="src/main/java" token="{{DOC_SERVER_URL}}" value="https://docs.cloud.oracle.com"/>
                   </target>
                   <failOnError>false</failOnError>
                 </configuration>
