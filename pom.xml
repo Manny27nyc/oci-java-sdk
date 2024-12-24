@@ -46,7 +46,7 @@
     <jakarta.ws.rs-api.version>2.1.6</jakarta.ws.rs-api.version>
     <commons-codec.version>1.15</commons-codec.version>
     <commons-lang3.version>3.8.1</commons-lang3.version>
-    <commons-io.version>2.8.0</commons-io.version>
+    <commons-io.version>20030203.000550</commons-io.version>
     <!-- Update resilience4jVersion and io.vavr.version together -->
     <resilience4jVersion>1.2.0</resilience4jVersion>
     <io.vavr.version>0.10.2</io.vavr.version>
@@ -111,7 +111,7 @@
                 <phase>process-sources</phase>
                 <configuration>
                   <target>
-                    <replace dir="src/main/java" token="{{DOC_SERVER_URL}}" value="https://docs.cloud.oracle.com" />
+                    <replace dir="src/main/java" token="{{DOC_SERVER_URL}}" value="https://docs.cloud.oracle.com"/>
                   </target>
                   <failOnError>false</failOnError>
                 </configuration>
