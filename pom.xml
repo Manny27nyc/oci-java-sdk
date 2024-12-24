@@ -35,7 +35,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <jackson.version>2.12.0</jackson.version>
-    <jersey.version>2.34</jersey.version>
+    <jersey.version>3.0.9</jersey.version>
     <apache-httpcomponents.version>4.5.13</apache-httpcomponents.version>
     <guava.version>30.1-jre</guava.version>
     <junit.version>4.13.1</junit.version>
@@ -111,7 +111,7 @@
                 <phase>process-sources</phase>
                 <configuration>
                   <target>
-                    <replace dir="src/main/java" token="{{DOC_SERVER_URL}}" value="https://docs.cloud.oracle.com" />
+                    <replace dir="src/main/java" token="{{DOC_SERVER_URL}}" value="https://docs.cloud.oracle.com"/>
                   </target>
                   <failOnError>false</failOnError>
                 </configuration>
