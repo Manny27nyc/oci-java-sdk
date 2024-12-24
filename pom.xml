@@ -34,10 +34,10 @@
   </scm>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <jackson.version>2.12.0</jackson.version>
+    <jackson.version>2.12.7.1</jackson.version>
     <jersey.version>2.34</jersey.version>
     <apache-httpcomponents.version>4.5.13</apache-httpcomponents.version>
-    <guava.version>30.1-jre</guava.version>
+    <guava.version>32.0.0-jre</guava.version>
     <junit.version>4.13.1</junit.version>
     <lombok.version>1.18.18</lombok.version>
     <lombok.maven.version>1.18.18.0</lombok.maven.version>
